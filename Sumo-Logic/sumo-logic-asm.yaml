@@ -86,6 +86,14 @@
           "0.0.0.0"
         ],
         "pool": "web_pool",
+        "securityLogProfiles": [
+          {
+            "use": "/Common/Shared/telemetry_security_log_profile"
+          }
+        ],
+        "policyWAF": {
+          "bigip": "/Common/asmpolicy"
+        }
       },
       "web_pool": {
         "class": "Pool",
