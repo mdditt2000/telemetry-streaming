@@ -103,6 +103,11 @@
                   "10.192.75.110"
               ],
               "pool": "web_pool",
+              "profileTrafficLog": [
+                {
+                    "use": "/Common/Shared/telemetry_traffic_log_profile"
+                }
+            ],
               "securityLogProfiles": [
                   {
                       "use": "/Common/Shared/telemetry_security_log_profile"
