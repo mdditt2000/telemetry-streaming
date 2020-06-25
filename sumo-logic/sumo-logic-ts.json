@@ -1,0 +1,18 @@
+{
+    "class": "Telemetry",
+    "My_Consumer": {
+        "class": "Telemetry_Consumer",
+        "type": "Sumo_Logic",
+        "host": "collectors.sumologic.com",
+        "protocol": "https",
+        "port": 443,
+        "path": "/receiver/v1/http/",
+        "passphrase": {
+            "cipherText": "ThisIsFakeSecretKey"
+        }
+    },
+     "My_Listener": {
+        "class": "Telemetry_Listener",
+        "port": 6514
+    }
+}
